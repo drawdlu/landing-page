@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 /* overall padding */
@@ -195,11 +195,21 @@ li {
 }
 
 .cta-box button {
-    padding: 8px 16px;
+    padding: 8px 20px;
     margin-top: 8px;
     color: #e5e7eb;
     background-color: #3882f6;
     border-radius: 5px;
     border-color: white;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color:#e5e7eb;
+    background-color: #1f2937;
 }
