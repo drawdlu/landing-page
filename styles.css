@@ -10,12 +10,19 @@ body {
     flex-direction: column;
 }
 
+/* overall padding */
+.nav,
+.header {
+    padding: 0 200px;
+}
+
+/* Header */
+
 .nav {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 130px;
-    height: 70px;
+    height: 60px;
     align-items: center;
 }
 
@@ -42,4 +49,51 @@ li {
 
 .logo {
     color: white;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section 1 */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    height: 450px;
+    align-items: center;
+    gap: 20px;
+}
+
+.header button {
+    padding: 8px 16px;;
+    margin-top: 8px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.text {
+    flex: 0 1 400px;
+}
+
+.text h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8
+}
+
+.text p {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.image img {
+    width: 400px;
+    height: auto;
 }
