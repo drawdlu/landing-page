@@ -12,7 +12,8 @@ body {
 
 /* overall padding */
 .nav,
-.header {
+.header,
+.information {
     padding: 0 200px;
 }
 
@@ -64,9 +65,11 @@ li {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
-    height: 450px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     align-items: center;
-    gap: 20px;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .header button {
@@ -79,7 +82,8 @@ li {
 }
 
 .text {
-    flex: 0 1 400px;
+    flex: 1 1 400px;
+    max-width: 500px;
 }
 
 .text h1{
@@ -96,4 +100,36 @@ li {
 .image img {
     width: 400px;
     height: auto;
+}
+
+/* section 2 */
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 80px;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    gap: 16px;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;;
 }
